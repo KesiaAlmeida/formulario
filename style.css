@@ -1,0 +1,31 @@
+button[type="submit"] {
+    background-color: rgb(21, 80, 35);
+    border: none;
+    border-radius: 7px;
+    padding: 10px 20px;
+    color: rgb(241, 233, 233);
+    cursor: pointer;
+    box-shadow: 2px 2px  1px rgb(145, 230, 201);
+}
+
+button[type="submit"] :hover 
+button[type="submit"] :hover {
+    background-color: rgb(172, 130, 143);
+}
+
+button[type="submit"] :active {
+    box-shadow: inset 2px 2px 2px black;
+}
+
+button :disabled,
+button :disabled :hover {
+    box-shadow: none;
+    background-color: grey;
+    cursor: not-allowed;
+    
+}
+
+
+
+
+
